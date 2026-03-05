@@ -80,7 +80,7 @@ function disconnectWallet() {
     contract = null;
     accountSpan.innerText = '';
     networkSpan.innerText = '';
-    connectBtn.innerText = 'Connect Wallet Metamask';
+    connectBtn.innerText = 'Connect Wallet';
     mintBtn.disabled = true;
     totalMintedSpan.innerText = '0';
     remainingSpan.innerText = '10000';
