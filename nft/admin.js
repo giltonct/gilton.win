@@ -121,7 +121,7 @@ function disconnectWallet() {
     contract = null;
     accountSpan.innerText = '';
     networkSpan.innerText = '';
-    connectBtn.innerText = 'Connect Wallet Metamask';
+    connectBtn.innerText = 'Connect Wallet';
     withdrawBtn.disabled = true;
     updateBaseURIBtn.disabled = true;
     transferOwnershipBtn.disabled = true;
